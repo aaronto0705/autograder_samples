@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Set up autograder files
+
+# python3 get_queries.py /autograder/submission/a2-exercise.py
+
+cp /autograder/submission/a2-exercise.py /autograder/source/a2-exercise.py
+
+cd /autograder/source
+
+python3 run_tests.py
